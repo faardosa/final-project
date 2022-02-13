@@ -11,11 +11,12 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+
+          href="https://www.womenshealthmag.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Divine Energy: For Woman By Woman
         </a>
       </header>
     </div>
