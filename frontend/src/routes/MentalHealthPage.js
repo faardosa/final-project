@@ -12,3 +12,4 @@ const MentalHealthPage = () => {
 }
 
 export default MentalHealthPage;
+

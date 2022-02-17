@@ -2,12 +2,7 @@ import React from "react";
 import Nutrition from "../components/Nutrition";
 
 const NutritionPage = () => {
-  return ( 
-  
-  
-    <Nutrition/>
-    
-  );
-}
+  return <Nutrition />;
+};
 
 export default NutritionPage;
