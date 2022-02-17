@@ -7,7 +7,7 @@ export default function Nutrition({meals}) {
       return ( <div>
         <p className="breakfast-heading"> {meal.header} </p>
         <p className="breakfast-meals">
-          {"\n"} Here are some delicious protein filled breakfast options
+          {"\n"} Here are some delicious protein filled meals to keep you full and satisified throughout the day.
           <ul>
             {meal.items.map((item) => {
                   return ( <li> <Link to ={`/recipe/${item.name}`}> {item.name} </Link> </li> )

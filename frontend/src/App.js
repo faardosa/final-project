@@ -26,7 +26,7 @@ function App() {
 
           id:"lunch",
           header:  "Lunch",
-          items: [{ name: "Chicken" }, { name: "Oatmeal" }] 
+          items: [{ name: "Chicken" }, { name: "Salmon" }] 
         
         },
         dinner: { 
@@ -41,13 +41,19 @@ function App() {
     recipes: {
 
         Avocado: {
-          description: "description"
+          description: "Ingredients: 1 whole ripe avocado, whole wheat slice of bread, 2 eggs, cooked to your way of preference."
         },
 
         Oatmeal: {
           description: "oatmeal"
-        }
-
+        },
+        Chicken: {
+          description: "chicken"
+        },
+        Salmon: {
+          description: "salmon"
+        },
+        
 
 
 
