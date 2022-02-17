@@ -1,3 +1,35 @@
 .navbar {
   background-color: lightpink;
 }
+
+.logo {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 175px;
+  margin-left: -100px;
+  
+}
+
+.tabs {
+  text-decoration: none;
+  border: black 2px solid;
+  padding: 1rem;
+  width: 15%;
+  height: auto;
+  margin-right:-20px;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  color: black;
+}
+  
+
+
+.title {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 38px
+
+}
