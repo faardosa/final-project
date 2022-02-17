@@ -12,7 +12,8 @@ export default function Navbar() {
       >
         <Link to="/">Main</Link> |{" "}
         <Link to="/nutrition">Nutrition</Link> |{" "}
-        <Link to="/fitness">Fitness</Link> 
+        <Link to="/fitness">Fitness</Link> |{" "} 
+        <Link to="/mentalhealth">Mental Health</Link>
       </nav>
     </div>
   );
