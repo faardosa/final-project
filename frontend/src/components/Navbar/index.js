@@ -22,7 +22,7 @@ export default function Nav() {
         <Link className="tabs" to="/">Main</Link> 
         <Link className="tabs"  to="/nutrition">Nutrition</Link> 
         <Link className="tabs"  to="/fitness">Fitness</Link> 
-        <Link className="tabs" to="/mental">Mental Health</Link> 
+        <Link className="tabs" to="/mentalhealth">Mental Health</Link> 
 </Container>
 </Navbar>
 
@@ -36,7 +36,7 @@ export default function Nav() {
         
         
       >
-        
+
       </nav>
       
     </div>
