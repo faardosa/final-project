@@ -1,7 +1,28 @@
 import React from "react";
 import "./nutrition.css";
+import { Link } from "react-router-dom";
 
-export default function Nutrition() {
+export default function Nutrition({meals}) {
+  const mealsList = Object.values(meals).map((meal)=>{
+      return ( <div>
+        <p className="breakfast-heading"> {meal.header} </p>
+        <p className="breakfast-meals">
+          {"\n"} Here are some delicious protein filled breakfast options
+          <ul>
+            {meal.items.map((item) => {
+                  return ( <li> <Link to ={`/recipe/${item.name}`}> {item.name} </Link> </li> )
+
+              })
+            }
+           
+          </ul>
+        </p>
+      </div>) 
+
+  })
+
+  
+
   return (
     <div>
       <h2 className="nutrition">MEAL PLANS</h2>
@@ -12,12 +33,16 @@ export default function Nutrition() {
       </p>
 
       <div className="flex-container">
-        <div>
+        {mealsList}
+
+
+        {/* <div>
           <p className="breakfast-heading"> Breakfast </p>
           <p className="breakfast-meals">
             {"\n"} Here are some delicious protein filled breakfast options
             <ul>
-              <li>Avocado toast with egg</li>
+              <li> <Link to ="recipe"> Avocado toast with egg </Link>
+              </li>
               <li>Flax seed oatmeal</li>
               <li>Yogurt parfait with assorted berries</li>
             </ul>
@@ -46,7 +71,7 @@ export default function Nutrition() {
               <li>Milk</li>
             </ul>{" "}
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
