@@ -1,0 +1,11 @@
+/* .video {
+  width: 20;
+  padding: 4rem;
+  background: #fff;
+} */
+
+.video{
+  display: flex;
+  padding-top: 100px;
+  justify-content: center;
+}
