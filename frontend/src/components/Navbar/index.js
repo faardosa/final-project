@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import './navbar.css';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
@@ -16,7 +16,7 @@ export default function Nav() {
     <div>
     <Navbar className="navbar">
       <Container>
-      <img className="logo" src="/images/logo.jpg" />
+      <img className="logo" src="/images/logo.jpg" alt=" My Logo" />
       <div className="title">Divine Energy</div>
         
         <Link className="tabs" to="/">Main</Link> 
