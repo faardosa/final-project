@@ -48,21 +48,26 @@ export default function MentalHealth() {
      const qa = questions.map(item => {
          const questionanswer = item.answerOptions.map(itemanswers => {
              return (
+               
                  <button className="quiz">{itemanswers.answerText}</button>
              )
          })
          return (
              <>
-             <div> Question - {item.questionText}</div>
-             <p>{questionanswer} </p>
+             <div className="Questions" > {item.questionText}</div>
+             <p className="answers">{questionanswer} </p>
              <hr/>
              </>
          )
      })
-
+     
+            
     return (
         <>
         <img src={mhbanner} alt="background-img" />
+        
+        <h3><h3/>
+        
         <div>{qa}</div>
 
             
@@ -73,16 +78,28 @@ export default function MentalHealth() {
                     <div className='mood-tracker'>
                         <div className='daily-track'>
                             <span>How Do I Feel today? </span> 
-                            <input></input>
+                            <input type="text" ></input>
+                            <br/>
+                            <input type="Submit" value="Submit" ></input>
                         </div>
                         <div className='weekly-track'> How I felt this whole week </div>
+                        <input type="text" ></input>
+                            <br/>
+                            <input type="Submit" value="Submit" ></input>
                     </div>
                     <div className='reflection-mood'> Here you can reflect on your mood?
+                    <input type="text" ></input>
+                            <br/>
+                            <input type="Submit" value="Submit" ></input>
+                    {/* <button> </button> */}
                     </div>
 
                 </div>
             </div>
-             <Cardsmh/> 
+             <Cardsmh/>
+             
+             
+          
 
         </>
     )
