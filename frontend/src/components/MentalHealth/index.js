@@ -1,7 +1,9 @@
 import React from 'react';
-import mhbanner from '../../images/mhbanner.gif';
+import mhbanner from '../../images/mhbanner.gif'
+// import resources from './images/resources.png'
 import './index.css'
-
+import Carditems from './carditems'
+import Cardsmh from './cardsmh'
 
 export default function MentalHealth() {
     const questions = [
@@ -66,11 +68,12 @@ export default function MentalHealth() {
             
             <div className='resources'>
 
-                <div className='Mood Progress'> My Daily Mood Tracker: (
+                <div className='MoodProgress'> My Daily Mood Tracker: (
 
                     <div className='mood-tracker'>
                         <div className='daily-track'>
-                            <span>How Do I Feel today? </span>
+                            <span>How Do I Feel today? </span> 
+                            <input></input>
                         </div>
                         <div className='weekly-track'> How I felt this whole week </div>
                     </div>
@@ -78,9 +81,9 @@ export default function MentalHealth() {
                     </div>
 
                 </div>
-
             </div>
+             <Cardsmh/> 
+
         </>
     )
-
 }
