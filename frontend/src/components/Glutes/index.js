@@ -1,5 +1,5 @@
 import React from "react"
-import './Arms.css';
+import './Glutes.css';
 import YouTube from 'react-youtube';
 
 
@@ -21,12 +21,16 @@ import YouTube from 'react-youtube';
 
     return (
       <div>
-        <h1>10 Minute Toned Arms Workout</h1>
+        <h1>20 Minute Glute Workout</h1>
         <p1>
-        While many upper-body exercises involve equipment like <br /> dumbbells and barbells, arm exercises without weights are a solid <br /> way to put your muscles to the test, too. After all, the weight of <br /> your body is equipment in its own right—you can use it to load <br /> your arm muscles and make 'em work. There's no heavy lifting <br /> required.
+        We’re in the midst of a glutes renaissance. Thanks to Instagram, <br />
+        the increased focus on functional fitness, and/or Jennifer Lopez,<br /> Women are trying to build stronger,
+         more beautiful <br />Glutes. And with that goal comes the quest for better, more <br /> creative glutes exercises.
+
+
         </p1>
       <div className="video">
-        <YouTube videoId="j64BBgBGNIU" opts={opts} onReady={this._onReady} />
+        <YouTube videoId="wdzeMWI0dl0" opts={opts} onReady={this._onReady} />
       </div>  
       </div>
     )

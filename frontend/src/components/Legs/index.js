@@ -1,5 +1,5 @@
 import React from "react"
-import './Arms.css';
+import './Legs.css';
 import YouTube from 'react-youtube';
 
 
@@ -21,12 +21,15 @@ import YouTube from 'react-youtube';
 
     return (
       <div>
-        <h1>10 Minute Toned Arms Workout</h1>
+        <h1>15 Minute Leg Workout</h1>
         <p1>
-        While many upper-body exercises involve equipment like <br /> dumbbells and barbells, arm exercises without weights are a solid <br /> way to put your muscles to the test, too. After all, the weight of <br /> your body is equipment in its own right—you can use it to load <br /> your arm muscles and make 'em work. There's no heavy lifting <br /> required.
-        </p1>
+        When the gym’s not an option, don’t let lack of equipment or  <br />
+        space deter you from getting a great leg workout. Keeping your <br />
+        leg muscles strong is key to getting from point A to point B and<br />
+         busting out those killer dance moves you’ve been showing off <br />
+         at Club Quarantine. </p1>
       <div className="video">
-        <YouTube videoId="j64BBgBGNIU" opts={opts} onReady={this._onReady} />
+        <YouTube videoId="HVyt7ywsOQ8" opts={opts} onReady={this._onReady} />
       </div>  
       </div>
     )

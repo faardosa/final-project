@@ -1,5 +1,5 @@
 import React from "react"
-import './Arms.css';
+import './Abs.css';
 import YouTube from 'react-youtube';
 
 
@@ -21,12 +21,14 @@ import YouTube from 'react-youtube';
 
     return (
       <div>
-        <h1>10 Minute Toned Arms Workout</h1>
+        <h1>10 Minute Abs Workout</h1>
         <p1>
-        While many upper-body exercises involve equipment like <br /> dumbbells and barbells, arm exercises without weights are a solid <br /> way to put your muscles to the test, too. After all, the weight of <br /> your body is equipment in its own right—you can use it to load <br /> your arm muscles and make 'em work. There's no heavy lifting <br /> required.
+        If there is one body part that you should not be struggling to train <br />  at home —  it is the abdominals. 
+        Yet the abs are one of the most <br />  neglected body parts of any training programme.
+        These bodyweight <br />  ab exercises are great for developing the core muscles and can be <br />  done at home with no equipment whatsoever.  
         </p1>
       <div className="video">
-        <YouTube videoId="j64BBgBGNIU" opts={opts} onReady={this._onReady} />
+        <YouTube videoId="AnYl6Nk9GOA" opts={opts} onReady={this._onReady} />
       </div>  
       </div>
     )
