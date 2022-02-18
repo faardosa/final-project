@@ -23,6 +23,7 @@ export default function Nav() {
         <Link className="tabs"  to="/nutrition">Nutrition</Link> 
         <Link className="tabs"  to="/fitness">Fitness</Link> 
         <Link className="tabs" to="/mentalhealth">Mental Health</Link> 
+        <Link className="tabs" to="/resources">Resources</Link> 
 </Container>
 </Navbar>
 

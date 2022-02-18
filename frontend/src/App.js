@@ -4,6 +4,7 @@ import NutritionPage from "./routes/NutritionPage";
 import FitnessPage from "./routes/FitnessPage";
 import MainPage from "./routes/MainPage";
 import MentalHealthPage from "./routes/MentalHealthPage";
+import ResourcesPage from "./routes/ResourcesPage";
 import { Routes, Route } from "react-router-dom";
 import Nav from "./components/Navbar/";
 import Recipe from "./components/Nutrition/Recipes";
@@ -69,6 +70,7 @@ function App() {
         <Route path="nutrition" element={<NutritionPage meals={state.meals} />} />
         <Route path="mentalhealth" element={<MentalHealthPage />} />
         <Route path="recipe/:name" element={<Recipe recipes={state.recipes} />} />
+        <Route path="resources" element={<ResourcesPage />} />
       </Routes>
     </div>
   );
