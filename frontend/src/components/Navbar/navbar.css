@@ -1,5 +1,5 @@
 .navbar {
-  background-color: lightpink;
+  background-color: lightgrey;
 }
 
 .logo {
@@ -28,7 +28,7 @@
 
 
 .title {
-  font-family: cursive;
+  font-family:fantasy;
   font-weight: bold;
   font-size: 38px
 

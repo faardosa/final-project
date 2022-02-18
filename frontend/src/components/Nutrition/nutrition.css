@@ -1,4 +1,56 @@
 .nutrition {
 
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: center;
+font-weight: 900;
+font-size: 300%;
+}
+
+.flex-container {
+  display: flex;
+  background-color: #f1f1f1;
+}
+
+.flex-container > div {
+  background-color: pink;
+  color:black;
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  width: auto;
+  flex-grow: 2;
+  height: 600px;
+  
+
+}
+
+.intro {
+  text-align: center;
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  font-size: 105%;
+}
+
+
+/* .breakfast {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+} */
+
+
+.breakfast-heading {
+
+  font-family: monospace;
+}
+
+
+.breakfast-meals {
+    font-family:sans-serif;
+
+
 }

@@ -1,5 +1,10 @@
 .banner {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
+  float: right;
  
+}
+
+.background {
+  background-color: rgb(110, 37, 37);
 }
