@@ -48,7 +48,7 @@ export default function MentalHealth() {
      const qa = questions.map(item => {
          const questionanswer = item.answerOptions.map(itemanswers => {
              return (
-                 <button>{itemanswers.answerText}</button>
+                 <button className="quiz">{itemanswers.answerText}</button>
              )
          })
          return (

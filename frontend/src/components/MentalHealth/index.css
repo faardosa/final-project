@@ -1,12 +1,11 @@
 body {
     color:black;
     margin: 0;
-    font-family: 
+
     
   }
   * {
     font-family: "Verdana", cursive, sans-serif;
-    color: pink;
   }
   
   body {
@@ -89,7 +88,9 @@ body {
   button svg {
     margin-right: 5px;
   }
-
+.quiz{
+  
+}
 .MoodProgress{
   margin-left: auto;
   margin-right: auto;
