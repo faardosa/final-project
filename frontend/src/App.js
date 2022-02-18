@@ -67,7 +67,7 @@ function App() {
         <Route path="/" element={<MainPage />} />
         <Route path="fitness" element={<FitnessPage />} />
         <Route path="nutrition" element={<NutritionPage meals={state.meals} />} />
-        <Route path="mental" element={<MentalHealthPage />} />
+        <Route path="mentalhealth" element={<MentalHealthPage />} />
         <Route path="recipe/:name" element={<Recipe recipes={state.recipes} />} />
       </Routes>
     </div>
