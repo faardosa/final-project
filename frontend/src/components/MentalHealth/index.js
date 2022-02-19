@@ -9,10 +9,9 @@ import { Button, Flex, Box,  Popover,
   PopoverContent,
   PopoverHeader,
   PopoverBody,
-  PopoverFooter,
   PopoverArrow,
   PopoverCloseButton,
-  PopoverAnchor,} from '@chakra-ui/react'
+ } from '@chakra-ui/react'
 
 export default function MentalHealth() {
     const questions = [
