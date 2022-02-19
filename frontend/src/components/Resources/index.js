@@ -1,7 +1,7 @@
 import React from 'react';
 import  rsbanner  from '../../images/rsbanner.gif';
 import {
-  Button,Fade, ScaleFade, Slide, SlideFade,Box, useDisclosure, Stack
+  Button,Fade, ScaleFade, Slide, SlideFade,Box, useDisclosure, Stack, Flex
 } from '@chakra-ui/react'
  import Cardsmh from './cardsmh'
 
@@ -12,19 +12,21 @@ function SlideEx() {
     <>
       <Button onClick={onToggle}>Click here to Access resource contact</Button>
       <Slide direction='bottom' in={isOpen} style={{ zIndex: 10 }}>
-        <Box
+        <Flex
           p='40px'
           color='white'
           mt='4'
           bg='pink'
           rounded='md'
           shadow='md'
+    justifyContent='space-around'
+
         >
         <Button colorScheme="pink">Therapist </Button>
         <Button colorScheme="pink">Psychologist</Button>
         <Button colorScheme="pink">Nutritious</Button>
         <Button colorScheme="pink">Doctor</Button>
-        </Box>
+        </Flex>
       </Slide>
     </>
   )
