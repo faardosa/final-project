@@ -31,6 +31,8 @@ export default function Nutrition({meals}) {
         Meal plans are just as important as fitness. We need to ensure we are
         eating right, in order to feel right. Eat good, feel good.
       </p>
+      <img alt="nutrition-banner" className="banner" src="/nutrition-banner.gif" />
+
 
       <div className="flex-container">
         {mealsList}
