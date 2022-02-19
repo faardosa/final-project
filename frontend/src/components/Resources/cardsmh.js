@@ -6,9 +6,10 @@ import therapist from '../../images/therapist.jpeg'
 import supportchatw from '../../images/supportchatw.jpeg'
 import livechat from '../../images/livechat.png'
 import emergency from '../../images/emergency.jpeg'
+import { Stack, HStack, VStack } from '@chakra-ui/react'
 function Cards () {
     return (
-        <>
+        <HStack>
         <div className='cards'>
              <h1> Check out these amazing Resources! </h1>
             <div className="cards_container">
@@ -64,7 +65,7 @@ function Cards () {
                  </div>
             </div>
     </div>
-    </>
+    </HStack>
     )
     // return (
     //     <div className='cards'>
