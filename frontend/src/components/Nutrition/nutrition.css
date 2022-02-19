@@ -21,8 +21,10 @@ font-size: 300%;
   font-size: 30px;
   width: auto;
   flex-grow: 2;
-  height: 600px;
-  
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -32,6 +34,9 @@ font-size: 300%;
   text-align: justify;
   letter-spacing: 3px;
   font-size: 105%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -52,5 +57,68 @@ font-size: 300%;
 .breakfast-meals {
     font-family:sans-serif;
 
+}
 
+.meal-header {
+
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.nutrition-banner {
+  max-width: 100%;
+  height: 700px;
+}
+
+.breakfast-photo {
+  max-width: 100%;
+  height: 700px;
+}
+
+.recipe-tag {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.recipe {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.avocado {
+  height: 400px;
+  width: 300px;
+  
+
+}
+
+.avocado-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+  padding: 15px;
+  border-radius: 5px;
+  width: 90%;
+  align-self: center;
+
+}
+
+.avocado-description {
+  
+}
+
+.breakfast-wrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.avocado-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
