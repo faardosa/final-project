@@ -1,5 +1,3 @@
-import Breakfast from "./Breakfast"
-
 
 
 const BreakfastItem = (props)=>{
@@ -8,16 +6,16 @@ const BreakfastItem = (props)=>{
 
 
   return (
-<div className="breakfast-wrapper"> 
+<div className="wrapper"> 
     <h1>
      Below are a few breakfast meal options.
     </h1>
 
    
-  <div className="avocado-wrapper"> 
-  <div className="avocado-left">
+  <div className="breakfast-wrapper"> 
+  <div className="breakfast-left">
   <p style={{textAlign:"center"}}> {title}</p>
-  <p className="avocado-description">  {description} </p>
+  <p className="breakfast-description">  {description} </p>
 
 <div className='recipe-tag'>
       <a className="recipe" target="_blank" href={url}>
@@ -30,7 +28,7 @@ const BreakfastItem = (props)=>{
 
   </div>
   
-  <img className="avocado" src={image} alt="avocado-egg" />
+  <img className="breakfast" src={image} alt="breakfast" />
     </div>    
 
     </div>

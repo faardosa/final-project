@@ -25,7 +25,7 @@ export default function Nutrition({meals}) {
 
   return (
     <div>
-      <h2 className="nutrition">MEAL PLANS</h2>
+      {/* <h2 className="nutrition">MEAL PLANS</h2> */}
 
       
       <img alt="nutrition-banner" className="nutrition-banner" src="images/nutrition-banner.gif" />

@@ -1,6 +1,4 @@
-import { Center } from "@chakra-ui/layout";
 import React from "react";
-import { Link } from "react-router-dom";
 import BreakfastItem from "./BreakfastItem";
 import avocado from "../../assets/images/avocado-egg.jpeg"
 import oatmeal from "../../assets/images/oatmeal.jpeg"

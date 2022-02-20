@@ -89,17 +89,17 @@ font-size: 300%;
   text-transform: uppercase;
 }
 
-.avocado {
+.breakfast {
   height: 400px;
   width: 300px;
   
 
 }
 
-.avocado-wrapper {
+.breakfast-wrapper {
   display: flex;
   justify-content: center;
-  background-color: lightblue;
+  background-color: lightgray;
   padding: 15px;
   border-radius: 5px;
   width: 90%;
@@ -107,18 +107,109 @@ font-size: 300%;
 
 }
 
-.avocado-description {
+.breakfast-description {
   
 }
 
-.breakfast-wrapper {
+.wrapper {
   display: flex;
   flex-direction: column;
 
 }
 
-.avocado-left {
+.breakfast-left {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+.mainlunch-wrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.lunch-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  padding: 15px;
+  border-radius: 5px;
+  width: 90%;
+  align-self: center;
+
+}
+
+.lunch-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.lunch-description {
+  
+}
+
+.lunch-recipe-tag {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.lunch-recipe {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.lunch {
+  height: 400px;
+  width: 300px;
+  
+
+}
+
+
+.maindinner-wrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.dinner-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  padding: 15px;
+  border-radius: 5px;
+  width: 90%;
+  align-self: center;
+
+}
+
+.dinner-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.dinner-description {
+  
+}
+
+.dinner-recipe-tag {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.dinner-recipe {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.dinner {
+  height: 400px;
+  width: 300px;
+  
+
 }
