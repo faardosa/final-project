@@ -21,8 +21,10 @@ font-size: 300%;
   font-size: 30px;
   width: auto;
   flex-grow: 2;
-  height: 600px;
-  
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -32,6 +34,9 @@ font-size: 300%;
   text-align: justify;
   letter-spacing: 3px;
   font-size: 105%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -52,5 +57,159 @@ font-size: 300%;
 .breakfast-meals {
     font-family:sans-serif;
 
+}
+
+.meal-header {
+
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.nutrition-banner {
+  max-width: 100%;
+  height: 700px;
+}
+
+.breakfast-photo {
+  max-width: 100%;
+  height: 700px;
+}
+
+.recipe-tag {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.recipe {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.breakfast {
+  height: 400px;
+  width: 300px;
+  
+
+}
+
+.breakfast-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  padding: 15px;
+  border-radius: 5px;
+  width: 90%;
+  align-self: center;
+
+}
+
+.breakfast-description {
+  
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.breakfast-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.mainlunch-wrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.lunch-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  padding: 15px;
+  border-radius: 5px;
+  width: 90%;
+  align-self: center;
+
+}
+
+.lunch-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.lunch-description {
+  
+}
+
+.lunch-recipe-tag {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.lunch-recipe {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.lunch {
+  height: 400px;
+  width: 300px;
+  
+
+}
+
+
+.maindinner-wrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.dinner-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  padding: 15px;
+  border-radius: 5px;
+  width: 90%;
+  align-self: center;
+
+}
+
+.dinner-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.dinner-description {
+  
+}
+
+.dinner-recipe-tag {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.dinner-recipe {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.dinner {
+  height: 400px;
+  width: 300px;
+  
 
 }
