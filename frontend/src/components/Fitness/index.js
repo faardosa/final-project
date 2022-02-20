@@ -1,5 +1,5 @@
 import React from 'react';
-import './fitness.css';
+import './Fitness.css';
 import CardItem from '../Carditem';
 
 function Bodyfitness() {
