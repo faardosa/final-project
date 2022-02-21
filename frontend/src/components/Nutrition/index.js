@@ -5,17 +5,17 @@ import { Link } from "react-router-dom";
 export default function Nutrition({meals}) {
   const mealsList = Object.values(meals).map((meal)=>{
       return ( <div>
-        <p className="breakfast-heading"> {meal.header} </p>
+         <Link className="meal-header" to ={`/mealpage/${meal.header}`}> {meal.header} </Link> 
         <p className="breakfast-meals">
-          {"\n"} Here are some delicious protein filled meals to keep you full and satisified throughout the day.
-          <ul>
+          {/* {"\n"} Here are some delicious protein filled meals to keep you full and satisified throughout the day. */}
+          {/* <ul>
             {meal.items.map((item) => {
                   return ( <li> <Link to ={`/recipe/${item.name}`}> {item.name} </Link> </li> )
 
               })
             }
            
-          </ul>
+          </ul> */}
         </p>
       </div>) 
 
@@ -25,12 +25,15 @@ export default function Nutrition({meals}) {
 
   return (
     <div>
-      <h2 className="nutrition">MEAL PLANS</h2>
+      {/* <h2 className="nutrition">MEAL PLANS</h2> */}
+
+      
+      <img alt="nutrition-banner" className="nutrition-banner" src="images/nutrition-banner.gif" />
 
       <p className="intro">
-        Meal plans are just as important as fitness. We need to ensure we are
-        eating right, in order to feel right. Eat good, feel good.
+       Click on the headings below for a few great meal plans.
       </p>
+
 
       <div className="flex-container">
         {mealsList}

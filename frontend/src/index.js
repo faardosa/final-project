@@ -13,7 +13,11 @@ ReactDOM.render(
     <ChakraProvider>
 
     <BrowserRouter>
+
+    <ChakraProvider>
     <App />
+    </ChakraProvider>
+        
     </BrowserRouter>
         </ChakraProvider>
 

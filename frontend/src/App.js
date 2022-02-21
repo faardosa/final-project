@@ -8,6 +8,16 @@ import ResourcesPage from "./routes/ResourcesPage";
 import { Routes, Route } from "react-router-dom";
 import Nav from "./components/Navbar/";
 import Recipe from "./components/Nutrition/Recipes";
+import Bodyfitness from './components/Fitness/index.js';
+import Arms from './components/Arms/index.js';
+import Legs from './components/Legs/index.js';
+import Abs from './components/Abs/index.js';
+import Back from './components/Back/index.js';
+import Glutes from './components/Glutes/index.js';
+import Breakfast from "./components/Nutrition/Breakfast";
+import Lunch from "./components/Nutrition/Lunch";
+import Dinner from "./components/Nutrition/Dinner";
+
 import { useState } from "react";
 
 function App() {
@@ -71,6 +81,16 @@ function App() {
         <Route path="mentalhealth" element={<MentalHealthPage />} />
         <Route path="recipe/:name" element={<Recipe recipes={state.recipes} />} />
         <Route path="resources" element={<ResourcesPage />} />
+
+      <Route path="Bodyfitness" element={<Bodyfitness/>} />
+      <Route path="Arms" element={<Arms/>} />
+      <Route path="Legs" element={<Legs/>} />
+      <Route path="Abs" element={<Abs/>} />
+      <Route path="Back" element={<Back/>} />
+      <Route path="Glutes" element={<Glutes/>} />
+      <Route path="mealpage/Breakfast" element={<Breakfast/>} />
+      <Route path="mealpage/Lunch" element={<Lunch/>} />
+      <Route path="mealpage/Dinner" element={<Dinner/>} />
       </Routes>
     </div>
   );
