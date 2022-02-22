@@ -6,32 +6,30 @@ const BreakfastItem = (props)=>{
 
 
   return (
-<div className="wrapper"> 
-    <h1>
-     Below are a few breakfast meal options.
-    </h1>
 
-   
-  <div className="breakfast-wrapper"> 
-  <div className="breakfast-left">
-  <p style={{textAlign:"center"}}> {title}</p>
-  <p className="breakfast-description">  {description} </p>
+    <div className="mainbreakfast-wrapper"> 
+<h1>
+   Below are a few breakfast meal options.
+  </h1>
 
-<div className='recipe-tag'>
-      <a className="recipe" target="_blank" href={url}>
-      
-      Click here for recipe
-        
-        </a>  
-      
-    </div> 
 
-  </div>
-  
-  <img className="breakfast" src={image} alt="breakfast" />
-    </div>    
+
+  <div class="breakfast-wrapper">
+    <div class="card">
+      <div class="card-img-body">
+      <img className="breakfast" src={image} alt="Card image cap"/>
+      </div>
+      <div class="card-body">
+        <h4 class="card-title">{title}</h4>
+        <p style={{textAlign:"center"}} class="card-text">{description}</p>
+        <a href={url} class="btn btn-outline-primary">Recipe</a>
+    </div>
 
     </div>
+    </div>
+    </div>
+
+  
   )
 
 
