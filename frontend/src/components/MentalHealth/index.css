@@ -86,7 +86,11 @@ body {
   border: 3px solid green;
   padding: 10px;
   border-radius: 25px;
+<<<<<<< HEAD
+  background: #pink;
+=======
   background: pink;
+>>>>>>> master
   padding: 2px;
   
   
@@ -97,7 +101,11 @@ body {
   border: 3px solid green;
   padding: 10px;
   border-radius: 25px;
+<<<<<<< HEAD
+  background: #pink;
+=======
   background: pink;
+>>>>>>> master
   padding: 2px;
   
 }

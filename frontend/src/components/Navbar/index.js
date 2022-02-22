@@ -31,6 +31,31 @@ function Navbar() {
   window.addEventListener('resize', showButton);
 
   return (
+<<<<<<< HEAD
+    <div>
+    <Navbar className="navbar">
+      <Container>
+      <img className="logo" src="/images/logo.jpg" alt=" My Logo" />
+      <div className="title">Divine Energy</div>
+        
+        <Link className="tabs" to="/">Main</Link> 
+        <Link className="tabs"  to="/nutrition">Nutrition</Link> 
+        <Link className="tabs"  to="/fitness">Fitness</Link> 
+        <Link className="tabs" to="/mentalhealth">Mental Health</Link> 
+        <Link className="tabs" to="/resources">Resources</Link> 
+</Container>
+</Navbar>
+
+
+      {/* <img className="logo" src="/images/logo.jpg" /> */}
+      <nav
+        style={{
+          borderBottom: "solid 1px",
+          paddingBottom: "1rem"
+        }}
+        
+        
+      >
     <>
       <nav className='navbar'>
         <div className='navbar-container'>

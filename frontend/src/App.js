@@ -80,7 +80,9 @@ function App() {
         <Route path="nutrition" element={<NutritionPage meals={state.meals} />} />
         <Route path="mentalhealth" element={<MentalHealthPage />} />
         <Route path="recipe/:name" element={<Recipe recipes={state.recipes} />} />
-        <Route path="Bodyfitness" element={<Bodyfitness/>} />
+        <Route path="resources" element={<ResourcesPage />} />
+
+      <Route path="Bodyfitness" element={<Bodyfitness/>} />
       <Route path="Arms" element={<Arms/>} />
       <Route path="Legs" element={<Legs/>} />
       <Route path="Abs" element={<Abs/>} />
@@ -89,9 +91,6 @@ function App() {
       <Route path="mealpage/Breakfast" element={<Breakfast/>} />
       <Route path="mealpage/Lunch" element={<Lunch/>} />
       <Route path="mealpage/Dinner" element={<Dinner/>} />
-
-
-
       </Routes>
     </div>
   );

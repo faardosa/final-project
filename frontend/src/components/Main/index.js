@@ -5,6 +5,16 @@ import './main.css';
 
 function HeroSection() {
   return (
+
+    <>
+          <div >
+          
+          </div>
+            <h3>Welcome to Divine Energy</h3>
+            <h4>Our aim is to promote healthy living and to shed light on the importance of womans health.</h4>
+            <img alt="banner" className="banner" src="/images/divine-energy-banner.png" />
+          
+    </>
     <div className='hero-container'>
       <video src='/videos/video-1.mp4' autoPlay loop muted />
       <h1>THE BODY ACHIEVES</h1>
@@ -18,8 +28,6 @@ function HeroSection() {
         >
           GET STARTED
         </Button>
-
-      
       </div>
     </div>
   );
