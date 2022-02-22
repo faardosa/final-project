@@ -31,31 +31,6 @@ function Navbar() {
   window.addEventListener('resize', showButton);
 
   return (
-<<<<<<< HEAD
-    <div>
-    <Navbar className="navbar">
-      <Container>
-      <img className="logo" src="/images/logo.jpg" alt=" My Logo" />
-      <div className="title">Divine Energy</div>
-        
-        <Link className="tabs" to="/">Main</Link> 
-        <Link className="tabs"  to="/nutrition">Nutrition</Link> 
-        <Link className="tabs"  to="/fitness">Fitness</Link> 
-        <Link className="tabs" to="/mentalhealth">Mental Health</Link> 
-        <Link className="tabs" to="/resources">Resources</Link> 
-</Container>
-</Navbar>
-
-
-      {/* <img className="logo" src="/images/logo.jpg" /> */}
-      <nav
-        style={{
-          borderBottom: "solid 1px",
-          paddingBottom: "1rem"
-        }}
-        
-        
-      >
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
@@ -70,6 +45,11 @@ function Navbar() {
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                 Home
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='/mentalhealth' className='nav-links' onClick={closeMobileMenu}>
+                Mental Health
               </Link>
             </li>
             <li className='nav-item'>
@@ -90,7 +70,11 @@ function Navbar() {
                 Fitness
               </Link>
             </li>
-
+            <li className='nav-item'>
+              <Link to='/resources' className='nav-links' onClick={closeMobileMenu}>
+                Resources
+              </Link>
+            </li>
             <li>
               <Link
                 to='/ProgressPage'
@@ -101,7 +85,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>My Progress</Button>}
+          {/* {button && <Button buttonStyle='btn--outline'>My Progress</Button>} */}
         </div>
       </nav>
     </>

@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import "./App.css";
 import NutritionPage from "./routes/NutritionPage";
 import FitnessPage from "./routes/FitnessPage";
@@ -18,7 +18,9 @@ import Breakfast from "./components/Nutrition/Breakfast";
 import Lunch from "./components/Nutrition/Lunch";
 import Dinner from "./components/Nutrition/Dinner";
 
-import { useState } from "react";
+
+
+
 
 function App() {
   const [state] = useState({
