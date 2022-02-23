@@ -10,7 +10,7 @@ return (
   <>
   <BreakfastItem
     title="Avocado and Toast"
-    description="Avocado description"
+    description="It’s a simple healthy protein-packed breakfast, snack or light meal! Simple to make, tasty and satisfying."
     url="https://feelgoodfoodie.net/recipe/avocado-toast-with-egg-3-ways/"
     image={avocado}
 
@@ -18,7 +18,7 @@ return (
 
 <BreakfastItem
     title="Oatmeal with Assorted Berries"
-    description="Berries description"
+    description="An easy, healthy and delicious breakfast! Great for a quick and simple meal!"
     url="https://lovelylittlekitchen.com/triple-berry-oatmeal-breakfast-bowl/"
     image={oatmeal}
 
@@ -26,7 +26,7 @@ return (
   
   <BreakfastItem
     title="Quick breakfast smoothie"
-    description="Smoothie description"
+    description="Start your day off right with this protein-packed smoothie. It will keep you feeling satisfied until lunch."
     url="https://fitfoodiefinds.com/the-best-breakfast-smoothie/"
     image={smoothie}
 

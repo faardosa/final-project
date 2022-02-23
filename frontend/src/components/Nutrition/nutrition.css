@@ -21,7 +21,7 @@ font-size: 300%;
   font-size: 30px;
   width: auto;
   flex-grow: 2;
-  height: 350px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,17 +99,19 @@ font-size: 300%;
 .breakfast-wrapper {
   display: flex;
   justify-content: center;
-  background-color: lightgray;
+  background-color: lightpink;
   padding: 15px;
-  border-radius: 5px;
-  width: 90%;
+  border-radius: 100px;
+  width: 80%;
   align-self: center;
+  text-align: center;
+
 
 }
 
-.breakfast-description {
+/* .breakfast-description {
   
-}
+} */
 
 .wrapper {
   display: flex;
@@ -132,11 +134,12 @@ font-size: 300%;
 .lunch-wrapper {
   display: flex;
   justify-content: center;
-  background-color: lightgray;
+  background-color: lightpink;
   padding: 15px;
-  border-radius: 5px;
-  width: 90%;
+  border-radius: 100px;
+  width: 80%;
   align-self: center;
+  text-align: center;
 
 }
 
@@ -146,9 +149,9 @@ font-size: 300%;
   justify-content: space-evenly;
 }
 
-.lunch-description {
+/* .lunch-description {
   
-}
+} */
 
 .lunch-recipe-tag {
   margin-top: 32px;
@@ -178,11 +181,12 @@ font-size: 300%;
 .dinner-wrapper {
   display: flex;
   justify-content: center;
-  background-color: lightgray;
+  background-color: lightpink;
   padding: 15px;
-  border-radius: 5px;
-  width: 90%;
+  border-radius: 100px;
+  width: 80%;
   align-self: center;
+  text-align: center;
 
 }
 
@@ -192,9 +196,9 @@ font-size: 300%;
   justify-content: space-evenly;
 }
 
-.dinner-description {
+/* .dinner-description {
   
-}
+} */
 
 .dinner-recipe-tag {
   margin-top: 32px;
@@ -211,5 +215,13 @@ font-size: 300%;
   height: 400px;
   width: 300px;
   
-
 }
+
+.card-img-body {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+

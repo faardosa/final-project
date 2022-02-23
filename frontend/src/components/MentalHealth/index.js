@@ -58,7 +58,7 @@ export default function MentalHealth() {
              return (
 <Popover>
   <PopoverTrigger>
-    <Button color='pink' >{itemanswers.answerText} </Button>
+    <Button colorScheme='pink' >{itemanswers.answerText} </Button>
   </PopoverTrigger>
   <PopoverContent>
     <PopoverArrow />
@@ -72,9 +72,9 @@ export default function MentalHealth() {
          })
          return (
              <Box >
-             <Button mt='15px' colorScheme='pink' borderColor="none">{item.questionText} </Button>
+             <Button  margin='25px'  colorScheme='pink' borderColor="pink">{item.questionText} </Button>
 
-             <Flex justifyContent='space-between' my="15px">{questionanswer} </Flex>
+             <Flex justifyContent='space-around' margin="15px">{questionanswer} </Flex>
              
              <hr/>
              </Box>
@@ -118,7 +118,15 @@ The resources below are available for youth and adults across Canada who want to
 
                 </div> */}
             </div> 
-            <h3>Great work on the daily check in!</h3>
+            <Box >
+             <Button  margin='25px' justifyContent='space-around' colorScheme='purple' borderColor="pink"> Great job on the daily check in! </Button>
+
+        
+             
+             <hr/>
+             </Box>
+            {/* <h1  bold margin='25px'  colorScheme='pink' borderColor="pink">Great work on the daily check in </h1> */}
+            {/* <h3>Great work on the daily check in!</h3> */}
 
 {/* 
             <h2> Reaching to professionals

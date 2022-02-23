@@ -2,6 +2,7 @@
   background: linear-gradient(90deg, rgb(148, 49, 99) 0%, rgb(224, 113, 200) 100%);
   
   height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,9 +15,9 @@
 .navbar-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: space-between;
   height: 100%;
-  max-width: 100%;
+  max-width: 90%;
 }
 
 .navbar-logo {
@@ -37,7 +38,11 @@
 
 .nav-menu {
   display: grid;
+<<<<<<< HEAD
   grid-template-columns: repeat(5, auto);
+=======
+  grid-template-columns: repeat(6, auto);
+>>>>>>> a898213f09c36e2a85b35193b349714d59231c6e
   grid-gap: 10px;
   list-style: none;
   text-align: center;
