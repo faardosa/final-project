@@ -109,9 +109,9 @@ font-size: 300%;
 
 }
 
-.breakfast-description {
+/* .breakfast-description {
   
-}
+} */
 
 .wrapper {
   display: flex;
@@ -149,9 +149,9 @@ font-size: 300%;
   justify-content: space-evenly;
 }
 
-.lunch-description {
+/* .lunch-description {
   
-}
+} */
 
 .lunch-recipe-tag {
   margin-top: 32px;
@@ -196,9 +196,9 @@ font-size: 300%;
   justify-content: space-evenly;
 }
 
-.dinner-description {
+/* .dinner-description {
   
-}
+} */
 
 .dinner-recipe-tag {
   margin-top: 32px;
