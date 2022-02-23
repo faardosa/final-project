@@ -23,9 +23,9 @@ import YouTube from 'react-youtube';
       <div>
         <h1 className="abs">10 Minute Abs Workout</h1>
         <p1>
-        If there is one body part that you should not be struggling to train <br />  at home —  it is the abdominals. 
-        Yet the abs are one of the most <br />  neglected body parts of any training programme.
-        These bodyweight <br />  ab exercises are great for developing the core muscles and can be <br />  done at home with no equipment whatsoever.  
+        If there is one body part that you should not be struggling <br /> to train  at home —  it is the abdominals. 
+        Yet the abs are one<br />  of the most  neglected body parts of any training programme.<br /> 
+        These bodyweight   ab exercises are great for developing the <br />core muscles and can be  done at home with no equipment <br /> whatsoever.  
         </p1>
       <div className="video">
         <YouTube videoId="AnYl6Nk9GOA" opts={opts} onReady={this._onReady} />
