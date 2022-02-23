@@ -11,12 +11,12 @@ function SlideEx() {
   return (
     <>
       <Button onClick={onToggle}>Click here to Access resource contact</Button>
-      <Slide direction='bottom' in={isOpen} style={{ zIndex: 10 }}>
+      <Slide  direction='bottom' in={isOpen} style={{ zIndex: 10 }}>
         <Flex
           p='40px'
-          color='white'
+          color='black'
           mt='4'
-          bg='pink'
+          bg='148'
           rounded='md'
           shadow='md'
     justifyContent='space-around'

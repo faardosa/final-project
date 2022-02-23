@@ -17,8 +17,7 @@ import Glutes from './components/Glutes/index.js';
 import Breakfast from "./components/Nutrition/Breakfast";
 import Lunch from "./components/Nutrition/Lunch";
 import Dinner from "./components/Nutrition/Dinner";
-
-
+import JournalPage from "./routes/JournalPage";
 
 
 
@@ -83,6 +82,8 @@ function App() {
         <Route path="mentalhealth" element={<MentalHealthPage />} />
         <Route path="recipe/:name" element={<Recipe recipes={state.recipes} />} />
         <Route path="resources" element={<ResourcesPage />} />
+        <Route path="Journal" element={<JournalPage />} />
+        
 
       <Route path="Bodyfitness" element={<Bodyfitness/>} />
       <Route path="Arms" element={<Arms/>} />
