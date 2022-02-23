@@ -7,12 +7,9 @@ function HeroSection() {
   return (
 
     <>
-          <div >
           
-          </div>
-            <h3>Welcome to Divine Energy</h3>
-            <h4>Our aim is to promote healthy living and to shed light on the importance of womans health.</h4>
-            <img alt="banner" className="banner" src="/images/divine-energy-banner.png" />
+          
+       
           
    
     <div className='hero-container'>

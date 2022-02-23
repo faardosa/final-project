@@ -9,3 +9,8 @@
   padding-top: 100px;
   justify-content: center;
 }
+
+.title {
+  font-size: 40px;
+    font-weight: inherit;
+}

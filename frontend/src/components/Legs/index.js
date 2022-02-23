@@ -21,7 +21,7 @@ import YouTube from 'react-youtube';
 
     return (
       <div>
-        <h1>15 Minute Leg Workout</h1>
+        <h1 className="legs">15 Minute Leg Workout</h1>
         <p1>
         When the gym’s not an option, don’t let lack of equipment or  <br />
         space deter you from getting a great leg workout. Keeping your <br />
