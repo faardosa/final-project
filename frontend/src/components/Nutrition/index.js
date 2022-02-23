@@ -39,6 +39,8 @@ export default function Nutrition({meals}) {
         {mealsList}
 
 
+
+
         {/* <div>
           <p className="breakfast-heading"> Breakfast </p>
           <p className="breakfast-meals">
