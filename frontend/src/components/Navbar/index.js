@@ -48,6 +48,11 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
+              <Link to='/mentalhealth' className='nav-links' onClick={closeMobileMenu}>
+                Mental Health
+              </Link>
+            </li>
+            <li className='nav-item'>
               <Link
                 to='/nutrition'
                 className='nav-links'
@@ -65,7 +70,11 @@ function Navbar() {
                 Fitness
               </Link>
             </li>
-
+            <li className='nav-item'>
+              <Link to='/resources' className='nav-links' onClick={closeMobileMenu}>
+                Resources
+              </Link>
+            </li>
             <li>
               <Link
                 to='/ProgressPage'
@@ -76,7 +85,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>My Progress</Button>}
+          {/* {button && <Button buttonStyle='btn--outline'>My Progress</Button>} */}
         </div>
       </nav>
     </>
