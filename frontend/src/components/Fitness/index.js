@@ -1,6 +1,6 @@
 import React from 'react';
 import './fitness.css';
-import CardItem from '../Resources/Carditem';
+import CardItem from '../Carditem';
 
 function Bodyfitness() {
   return (
