@@ -22,9 +22,9 @@ function SlideEx() {
     justifyContent='space-around'
 
         >
-        <Button colorScheme="pink">Therapist </Button>
+         <a href="https://www.therapytribe.com/therapist/ontario-on-toronto/womens-issues/"><Button colorScheme="pink" >Therapist</Button></a>
         <Button colorScheme="pink">Psychologist</Button>
-        <Button colorScheme="pink">Nutritious</Button>
+        <Button colorScheme="pink">Nutritionist</Button>
         <Button colorScheme="pink">Doctor</Button>
         </Flex>
       </Slide>
