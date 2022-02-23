@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import "./App.css";
 import NutritionPage from "./routes/NutritionPage";
 import FitnessPage from "./routes/FitnessPage";
@@ -18,7 +18,9 @@ import Breakfast from "./components/Nutrition/Breakfast";
 import Lunch from "./components/Nutrition/Lunch";
 import Dinner from "./components/Nutrition/Dinner";
 
-import { useState } from "react";
+
+
+
 
 function App() {
   const [state] = useState({
@@ -80,7 +82,9 @@ function App() {
         <Route path="nutrition" element={<NutritionPage meals={state.meals} />} />
         <Route path="mentalhealth" element={<MentalHealthPage />} />
         <Route path="recipe/:name" element={<Recipe recipes={state.recipes} />} />
-        <Route path="Bodyfitness" element={<Bodyfitness/>} />
+        <Route path="resources" element={<ResourcesPage />} />
+
+      <Route path="Bodyfitness" element={<Bodyfitness/>} />
       <Route path="Arms" element={<Arms/>} />
       <Route path="Legs" element={<Legs/>} />
       <Route path="Abs" element={<Abs/>} />
@@ -89,9 +93,6 @@ function App() {
       <Route path="mealpage/Breakfast" element={<Breakfast/>} />
       <Route path="mealpage/Lunch" element={<Lunch/>} />
       <Route path="mealpage/Dinner" element={<Dinner/>} />
-
-
-
       </Routes>
     </div>
   );
