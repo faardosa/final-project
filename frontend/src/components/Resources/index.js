@@ -23,9 +23,9 @@ function SlideEx() {
 
         >
          <a href="https://www.therapytribe.com/therapist/ontario-on-toronto/womens-issues/"><Button colorScheme="pink" >Therapist</Button></a>
-        <Button colorScheme="pink">Psychologist</Button>
-        <Button colorScheme="pink">Nutritionist</Button>
-        <Button colorScheme="pink">Doctor</Button>
+        <a href="https://torontoneurofeedback.ca/?gclid=CjwKCAiAsNKQBhAPEiwAB-I5zXDLXXgKDPYAyY-dEYn73XvlL2zIN3y5cCeo0X8ZwWgIZYvS9GuNPRoCOFgQAvD_BwE" ><Button colorScheme="pink">Psychologist</Button></a>
+        <a href="https://www.julienutrition.com/" ><Button colorScheme="pink">Nutritionist</Button></a>
+        <a href="https://www.womenscollegehospital.ca/patients-and-caregivers/finding-a-doctor" ><Button colorScheme="pink">Doctor</Button></a>
         </Flex>
       </Slide>
     </>
