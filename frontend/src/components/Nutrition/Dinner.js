@@ -1,6 +1,6 @@
 import React from "react";
 import DinnerItem from "./DinnerItem";
-import pasta from "../../assets/images/pasta.jpeg"
+import healthypasta from "../../assets/images/healthypasta.jpg"
 import caesarsalad from "../../assets/images/Caesar.jpeg"
 import tacos from "../../assets/images/tacos.jpeg"
 
@@ -10,7 +10,7 @@ const Dinner = ()=>{
     <>
     <DinnerItem
       title="Caesar Salad"
-      description="Caesar salad description"
+      description="A tossed salad filled with great nutrients. A light and easy meal for those busy nights."
       url="https://natashaskitchen.com/caesar-salad-recipe/"
       image={caesarsalad}
   
@@ -18,15 +18,15 @@ const Dinner = ()=>{
   
     <DinnerItem
       title="Tomato Penne with Avocado"
-      description="Pasta description"
+      description="This easy, healthy pasta recipe will fulfill all your needs for a simple weeknight meal that's also good for you."
       url="https://www.bbcgoodfood.com/recipes/mexican-penne-avocado"
-      image={pasta}
+      image={healthypasta}
   
     />
     
     <DinnerItem
       title="Tacos"
-      description="Tacos description"
+      description="Super easy, quick and flavorful! You never have to miss out on another Taco Tuesday again!"
       url="https://www.chelseasmessyapron.com/healthy-tacos/"
       image={tacos}
   

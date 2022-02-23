@@ -10,7 +10,7 @@ const Lunch = ()=>{
     <>
     <LunchItem
       title="Mediterranean Grilled Chicken Salad"
-      description="Chicken salad description"
+      description="This salad recipe is as close to perfect as you can get! Full of flavours made for a complete meal."
       url="https://www.delish.com/cooking/recipe-ideas/a21097616/grilled-chicken-salad-recipe/"
       image={chickensalad}
   
@@ -18,7 +18,7 @@ const Lunch = ()=>{
   
     <LunchItem
       title="Chicken Lettuce Wraps"
-      description="Chicken Lettuce Wraps description"
+      description="Filled with chicken, mushrooms, water chestnuts and carrots, these lettuce wraps are both healthy and yummy."
       url="https://www.tasteofhome.com/recipes/chicken-lettuce-wraps/"
       image={wrap}
   
@@ -26,7 +26,7 @@ const Lunch = ()=>{
     
     <LunchItem
       title="Oven Baked Salmon and Asparagus"
-      description="Oven Baked Salmon and Asparagus description"
+      description="Made with a lot of flavours, this tasty salmon recipe is the answer to busy nights and special occasions alike!"
       url="https://diethood.com/oven-baked-salmon/"
       image={salmon}
   
