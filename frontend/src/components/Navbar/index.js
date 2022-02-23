@@ -76,13 +76,11 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link
-                to='/ProgressPage'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
-                My Progress
+            <li className='nav-item'>
+              <Link to='/journals' className='nav-links' onClick={closeMobileMenu}>
+                My Journals
               </Link>
+            </li>
             </li>
           </ul>
           {/* {button && <Button buttonStyle='btn--outline'>My Progress</Button>} */}
