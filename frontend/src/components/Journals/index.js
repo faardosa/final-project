@@ -10,7 +10,7 @@ function SlideEx() {
 
   return (
     <>
-      <Button onClick={onToggle}>Click here to Access resource contact</Button>
+      <Button onClick={onToggle}>Click here to access your Journals</Button>
       <Slide  direction='bottom' in={isOpen} style={{ zIndex: 10 }}>
         <Flex
           p='40px'

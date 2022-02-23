@@ -42,9 +42,9 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 60vw;
+  width: 100%;
   justify-content: end;
-  margin-right: 2rem;
+
 }
 
 .nav-item {

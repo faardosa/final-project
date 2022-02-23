@@ -9,6 +9,7 @@ font-size: 300%;
 .flex-container {
   display: flex;
   background-color: #f1f1f1;
+  width: 100%;
 }
 
 .flex-container > div {
@@ -69,8 +70,10 @@ font-size: 300%;
 
 
 .nutrition-banner {
-  max-width: 100%;
-  height: 700px;
+  width: 100%;
+  /* height: 700px; */
+  display: flex;
+  justify-content: center;
 }
 
 .breakfast-photo {

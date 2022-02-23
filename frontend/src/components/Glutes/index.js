@@ -21,7 +21,7 @@ import YouTube from 'react-youtube';
 
     return (
       <div>
-        <h1>20 Minute Glute Workout</h1>
+        <h1 className="glutes">20 Minute Glute Workout</h1>
         <p1>
         We’re in the midst of a glutes renaissance. Thanks to<br /> Instagram, 
         the increased focus on functional fitness, and/or <br />Jennifer Lopez, Women are trying to build stronger,

@@ -21,7 +21,7 @@ import YouTube from 'react-youtube';
 
     return (
       <div>
-        <h1>15 Minute Toned Back Workout</h1>
+        <h1 className="back">15 Minute Toned Back Workout</h1>
         <p1>
 
 If you are working out from home (or anywhere but a gym) <br />and you  have no equipment,

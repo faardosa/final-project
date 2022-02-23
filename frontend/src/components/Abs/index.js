@@ -21,7 +21,7 @@ import YouTube from 'react-youtube';
 
     return (
       <div>
-        <h1>10 Minute Abs Workout</h1>
+        <h1 className="abs">10 Minute Abs Workout</h1>
         <p1>
         If there is one body part that you should not be struggling <br /> to train  at home —  it is the abdominals. 
         Yet the abs are one<br />  of the most  neglected body parts of any training programme.<br /> 

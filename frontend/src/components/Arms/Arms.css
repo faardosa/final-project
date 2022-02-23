@@ -10,6 +10,7 @@
   justify-content: center;
 }
 
-.title{
-  font: 10px arial, helvetica;
+.title {
+  font-size: 40px;
+    font-weight: inherit;
 }

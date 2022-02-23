@@ -17,6 +17,11 @@ export default function Nutrition({meals}) {
            
           </ul> */}
         </p>
+
+
+
+
+
       </div>) 
 
   })
@@ -24,6 +29,8 @@ export default function Nutrition({meals}) {
   
 
   return (
+
+    
     <div>
       {/* <h2 className="nutrition">MEAL PLANS</h2> */}
 
