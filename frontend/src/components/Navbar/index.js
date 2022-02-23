@@ -77,7 +77,7 @@ function Navbar() {
             </li>
             <li>
             <li className='nav-item'>
-              <Link to='/journals' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/journal' className='nav-links' onClick={closeMobileMenu}>
                 My Journals
               </Link>
             </li>
